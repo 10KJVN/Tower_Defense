@@ -10,9 +10,10 @@ GameObject:
   m_Component:
   - component: {fileID: 3421239979538586764}
   - component: {fileID: 3421239979538586755}
+  - component: {fileID: 3421239981074489078}
   m_Layer: 0
   m_Name: Enemy
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -52,7 +53,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: b5bd4ab9c8570f1449b4e128ccabe038, type: 2}
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -72,9 +73,9 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: -2413806693520163455, guid: a86470a33a6bf42c4b3595704624658b, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.11764706, g: 0.88235295, b: 0.9019608, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -84,3 +85,30 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &3421239981074489078
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3421239979538586754}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01855281d54665e4e97a34e02ec70db7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  waypoints:
+  - {fileID: 6558458785070295564, guid: 0f907be17b9716848a104766dcfff229, type: 3}
+  - {fileID: 1999420630675264246, guid: 58bd2191181510f479030b9ae8a70da7, type: 3}
+  - {fileID: 8256737968369234130, guid: a628e5573722ef34ab425d7cc9595dac, type: 3}
+  - {fileID: 6396618977863218585, guid: 18713088bfa012e42908f7c6e7095eba, type: 3}
+  - {fileID: 6340224094323419538, guid: 622282502b3022c4dad6fa5641f0c06c, type: 3}
+  - {fileID: 4332201306881492488, guid: 8f963e7fad70e9042bcb4b357ba9eaa2, type: 3}
+  - {fileID: 7390859399614034775, guid: 9a618d56b0e4aa04a86fb01b4deea6ab, type: 3}
+  - {fileID: 3668086641267574637, guid: ae7716829cf93234d910604ec91541f2, type: 3}
+  - {fileID: 8528595741057889476, guid: 487464473d54c8949b0a6f46e116835e, type: 3}
+  - {fileID: 6414815666998482292, guid: e7729204d35827341abf995ad9fdb08b, type: 3}
+  - {fileID: 2742049993091460123, guid: 1e8c8ef58f3b1544dbabe7d68a13dd6e, type: 3}
+  - {fileID: 2742049993091460123, guid: 1e8c8ef58f3b1544dbabe7d68a13dd6e, type: 3}
+  Health: 50
+  speed: 30

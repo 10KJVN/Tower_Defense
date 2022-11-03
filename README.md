@@ -1,4 +1,4 @@
-# Tower_Defense
+7 XDSIJUh,lkmvcvgcfgfgfrgtfgflgfdgffdgfdfdddfdffdemkkkddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd# Tower_Defense
 
 ## Flowchart voor Enemy AI script
 
@@ -23,3 +23,13 @@ More_Levels -->|yes, there are more| Next_Level(Start next level)
 More_Levels -->|no more levels| end_d((end))
 Next_Level --> start
 ```
+
+## Reflectie Periode 1
+
+
+### Het project begon goed, ik had motivatie en een planning;
+##
+7### Ik begon met een titel scherm en main menu, tot nu toe ging het goed.
+### Ik had een duidelijk idee, ik wou het 2D, Top down etc.
+### totdat ik erachter kwam dat ik niet wist hoe ik zou moeten beginnnen.tuhmhm9kmmmmm mmmd34ccccccccccccce5err5e5er5eeeeeeeeffedwedwedde5c d d
+## 
