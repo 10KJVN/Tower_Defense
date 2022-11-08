@@ -48,47 +48,10 @@ public class Enemy : MonoBehaviour
 
         if (Health == 0)
         {
-            shopscript.currency++;
+            //shopscript.currency++;
             Destroy(gameObject);
 
         }
     }
 }
 
-//using UnityEngine;
-
-/*public class Enemy : MonoBehaviour
-{
-    /*public float speed = 10f;
-
-    private Transform target;
-    private int wavepointIndex = 0;
-
-    void Start ()
-    {
-        target = Waypoints.points[0];
-    }
-
-    void Update ()
-    {
-        Vector2 dir  = target.position - transform.position;
-        transform.Translate(dir.normalized * speed * Time.deltaTime, Space.World);
-
-        if (Vector2.Distance(transform.position, target.position) <= 0.4f)
-        {
-            GetNextWaypoint();
-        }
-    }
-
-    void GetNextWaypoint()
-    {
-        if (wavepointIndex >= Waypoints.points.Length - 1)
-        {
-            Destroy(gameObject);
-            return;
-        }
-        
-        wavepointIndex++;
-        target = Waypoints.points[wavepointIndex];
-    }*/
-//}

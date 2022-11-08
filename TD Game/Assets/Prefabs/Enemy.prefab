@@ -110,5 +110,5 @@ MonoBehaviour:
   - {fileID: 6414815666998482292, guid: e7729204d35827341abf995ad9fdb08b, type: 3}
   - {fileID: 2742049993091460123, guid: 1e8c8ef58f3b1544dbabe7d68a13dd6e, type: 3}
   - {fileID: 2742049993091460123, guid: 1e8c8ef58f3b1544dbabe7d68a13dd6e, type: 3}
-  Health: 50
-  speed: 30
+  Health: 15
+  speed: 10
